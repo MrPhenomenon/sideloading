@@ -54,8 +54,8 @@ const makeDNS = [
       { type: 'title', text: 'Step 3 (Optional: To add adBlock)' },
       { type: 'content', text: 'Go to Privacy tab > Add a blocklist' },
       { type: 'content', text: 'Add any adblocker you want' },
-      { type: 'image', src: 'Screenshots/best-guide/adblock.png', alt: '' },
-      { type: 'image', src: 'Screenshots/best-guide/adblock2.png', alt: '' },
+      { type: 'image', src: 'Screenshots/best-guide/adblock.PNG', alt: '' },
+      { type: 'image', src: 'Screenshots/best-guide/adblock2.PNG', alt: '' },
 
   ],
 ];
@@ -74,20 +74,20 @@ const installingEsign = [
         { type: 'link', href: 'http://cloudyserver.bio.link', text: 'cloudyserver' ,newTab: true},
         { type: 'link', href: 'http://jorkthepork.com', text: 'jorkthepork' ,newTab: true},
         { type: 'content', text: 'Do not use the live (or active) cert link this certificate is currently signed. Do not use that certificate. It will work but if the certificate gets revoked your apps will get revoked. This is what some other signing services use and are subject to being revoked quickly. ' },
-        { type: 'image', src: 'Screenshots/best-guide/shortcut.png', alt: 'shortcut' },
-        { type: 'image', src: 'Screenshots/best-guide/esign.png', alt: 'esign' },
+        { type: 'image', src: 'Screenshots/best-guide/shortcut.PNG', alt: 'shortcut' },
+        { type: 'image', src: 'Screenshots/best-guide/esign.PNG', alt: 'esign' },
   
     ],  
     [
       { type: 'title', text: 'Step 2' },
       { type: 'content', text: 'Trust ESign in settings to allow you to open the app (settings > general > VPN & device management' },
-      { type: 'image', src: 'Screenshots/best-guide/verifycert.png', alt: 'Cert Download' },
+      { type: 'image', src: 'Screenshots/best-guide/verifycert.PNG', alt: 'Cert Download' },
     ],
     [
       { type: 'title', text: 'Step 3' },
       { type: 'content', text: 'Download the certs file zip (FILE ESign Cert) from the link below ' },
       { type: 'link', href: 'https://khoindvn.io.vn/document/DNS/Esign-Certs.zip', text: 'Esign-Certs' ,newTab: true},
-      { type: 'image', src: 'Screenshots/best-guide/Dlcert.png', alt: 'Cert Download' },
+      { type: 'image', src: 'Screenshots/best-guide/Dlcert.PNG', alt: 'Cert Download' },
     ],
     [
       { type: 'title', text: 'Step 4' },
@@ -95,14 +95,14 @@ const installingEsign = [
       { type: 'content', text: 'In ESign go to the far left tab(files) and at the top right corner hit that and select import. Then choose the cert .zip file to import.' },
       { type: 'content', text: 'Once imported click it to unzip you can then delete the zip file' },
   
-      { type: 'image', src: 'Screenshots/best-guide/esignApp.png', alt: 'Cert Download' },
-      { type: 'image', src: 'Screenshots/best-guide/importZip.png', alt: 'Cert Download' },
+      { type: 'image', src: 'Screenshots/best-guide/esignApp.PNG', alt: 'Cert Download' },
+      { type: 'image', src: 'Screenshots/best-guide/importZip.PNG', alt: 'Cert Download' },
     ],
     [
       { type: 'title', text: 'Step 5' },
       { type: 'content', text: 'Open cert folder and pick one out to install. I use HDFC but any should work if one does not work just try another. Import by clicking on the cert and importing.' },
       { type: 'content', text: 'That’s it you’re all set up now time to get some apps!' },
-      { type: 'image', src: 'Screenshots/best-guide/importCert.png', alt: 'Cert Download' },
+      { type: 'image', src: 'Screenshots/best-guide/importCert.PNG', alt: 'Cert Download' },
   
     ],
 ]
@@ -114,7 +114,7 @@ const downloadingApps = [
       { type: 'content', text: 'You can import any downloaded .ipa files in the same file location as the zip folder.' },
       { type: 'content', text: ' It will ask if you want to import it to App Library and click yes and it will move to the unsigned tab ' },
       { type: 'link', href: '#installingApps', text: 'Installing the IPA' ,newTab: false},
-      { type: 'image', src: 'Screenshots/best-guide/installipa.png', alt: '' },
+      { type: 'image', src: 'Screenshots/best-guide/installipa.PNG', alt: '' },
   ],
   [
       { type: 'title', text: 'Getting Apps from Repos' },
@@ -124,8 +124,8 @@ const downloadingApps = [
       { type: 'link', href: 'esign-repo.html', text: 'Esign Repos' ,newTab: true},
       { type: 'link', href: 'https://rentry.org/ipa-sources2', text: 'Links for other IPA Sources and Games' ,newTab: true},
       { type: 'content', text: 'You can now download apps from Esign AppStore tab' },
-      { type: 'image', src: 'Screenshots/best-guide/appsources.png', alt: 'appsources' },
-      { type: 'image', src: 'Screenshots/best-guide/addsource.png', alt: 'addsource' },
+      { type: 'image', src: 'Screenshots/best-guide/appsources.PNG', alt: 'appsources' },
+      { type: 'image', src: 'Screenshots/best-guide/addsource.PNG', alt: 'addsource' },
   ],
 ];
 
@@ -134,10 +134,10 @@ const installingApps = [
       { type: 'title', text: 'Step 1' },
       { type: 'content', text: 'Go to the apps tab you will see the unsigned app you imported click on it and hit “SIGNATURE” (DO NOT JUST HIT INSTALL IT WILL NOT WORK!)' },
       { type: 'content', text: 'Hit signature again on the next tab and it will load then hit install and a pop up will come up for it to install the app and its done. No revokes and install as many as you want!' },
-      { type: 'image', src: 'Screenshots/best-guide/signApp.png', alt: 'signApp' },
-      { type: 'image', src: 'Screenshots/best-guide/signApp2.png', alt: 'signApp2' },
-      { type: 'image', src: 'Screenshots/best-guide/installApp.png', alt: 'installApp' },
-      { type: 'image', src: 'Screenshots/best-guide/installApp2.png', alt: 'installApp2' },
+      { type: 'image', src: 'Screenshots/best-guide/signApp.PNG', alt: 'signApp' },
+      { type: 'image', src: 'Screenshots/best-guide/signApp2.PNG', alt: 'signApp2' },
+      { type: 'image', src: 'Screenshots/best-guide/installApp.PNG', alt: 'installApp' },
+      { type: 'image', src: 'Screenshots/best-guide/installApp2.PNG', alt: 'installApp2' },
   ],
 
 ];
