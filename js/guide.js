@@ -114,7 +114,7 @@ const downloadingApps = [
       { type: 'content', text: 'You can import any downloaded .ipa files in the same file location as the zip folder.' },
       { type: 'content', text: ' It will ask if you want to import it to App Library and click yes and it will move to the unsigned tab ' },
       { type: 'link', href: '#installingApps', text: 'Installing the IPA' ,newTab: false},
-      { type: 'image', src: 'Screenshots/best-guide/installipa.png', alt: '' },
+      { type: 'image', src: 'Screenshots/best-guide/installIpa.png', alt: 'ipa' },
   ],
   [
       { type: 'title', text: 'Getting Apps from Repos' },
