@@ -32,7 +32,7 @@ const makeDNS = [
       { type: 'content', text: 'Go to “Denylist”'},
       { type: 'content', text: 'Add the following links to the denylist'},
       { type: 'link', href: '#denylist', text: 'DenyList Links',newTab: false },
-      { type: 'content', text: 'Add this link in the allowList ( for feather only)'},
+      { type: 'content', text: 'Add this link in the allowList ( for feather only )'},
       { type: 'link', text: 'app.localhost.direct', href:'#'},
 
       { type: 'image', src: 'Screenshots/best-guide/dnsBlockiLst.PNG', alt: 'Image 2' },
