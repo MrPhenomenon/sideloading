@@ -7,14 +7,7 @@ const quickGuide = [
       { type: 'link', href: 'https://routinehub.co/shortcut/19640/', text: 'DNS+Esign+Cert Shortcut', newTab: true },
 
   ],
-  [
-      { type: 'title', text: 'Step 2' },
-      { type: 'content', text: 'Be sure DNS is enabled in settings' },
-      { type: 'content', text: 'Install esign using cert' },
-      { type: 'content', text: 'Download same cert use to install ESign' },
-      { type: 'content', text: 'Import cert into Esign' },
-      { type: 'content', text: 'Profit' },
-  ],
+
   [
       { type: 'title', text: 'Disclaimer!' },
       { type: 'content', text: 'This DNS is prebuilt and all DNS can track your internet activity! Use it if you want but just know it’s possible for the person who made it to track your internet logs.'},
