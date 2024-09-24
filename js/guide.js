@@ -143,6 +143,36 @@ const installingApps = [
 ];
 
 
+const feather = [
+    [
+        { type: 'title', text: 'Step 1' },
+        { type: 'content', text: 'Set up nextDNS from detailed guide (Step 1 & 2 only)' },
+        { type: 'link', href: 'best-guide.html', text: 'NextDNS Setup' , newTab:true},
+  
+    ],
+    [
+        { type: 'title', text: 'Step 2' },
+        { type: 'content', text: 'Download this shortcut' },
+        { type: 'link', href: 'https://www.icloud.com/shortcuts/57f03a5d4bbf4529a03e2598828b05de', text: 'Shortcut' , newTab:true},
+        { type: 'content', text: 'Open the shortcut from Shortcuts App' },
+        { type: 'content', text: 'Choose Installers > Feather' },
+        { type: 'content', text: 'Choose any certificate and try to choose another if first doesnt work' },
+        { type: 'content', text: 'Choose Allow if theres a popup asking for permissions and Install'},
+  
+  
+    ],
+    [
+      { type: 'title', text: 'Step 3' },
+      { type: 'content', text: 'Download any cert from this telegram channel' },
+      { type: 'link', href: 'https://t.me/AppleP12', text: 'AppleP12 telegram' , newTab:true},
+      { type: 'content', text: 'Open profile and in files tab download any cert' },
+      { type: 'image', src: 'Screenshots/best-guide/p12.jpg', alt: 'p12 telegram' },
+      { type: 'image', src: 'Screenshots/best-guide/p12cert.jpg', alt: 'p12 cert' },
+  ],
+  
+  ];
+  
+
 const faqs = [
   {
       question: 'None of the ESign links working and not installing!',
@@ -204,32 +234,65 @@ const faqs = [
 
 ];
 
-const feather = [
+const dylib = [
   [
-      { type: 'title', text: 'Step 1' },
-      { type: 'content', text: 'Set up nextDNS from detailed guide (Step 1 & 2 only)' },
-      { type: 'link', href: 'best-guide.html', text: 'NextDNS Setup' , newTab:true},
+      { type: 'title', text: 'Introduction' },
+      { type: 'content', text: 'For more advanced users you may find an app or game that does not have a tweaked version. This is a quick guide to import or remove dylib/debs from an ipa to allow for free in app purchases (IAP) or block ads or even add igamegod (a hex editor tool to modify values like gold/gems)' },
+      { type: 'content', text: 'You can get most decrypted apps from (Some may not be the most up to date)' },
+      { type: 'link', href: 'https://decrypt.day/', text: 'decrypt.day' },
+      { type: 'content', text: 'Or from here (More up to date but has a 2 app a day limit)' },
+      { type: 'link', href: 'https://armconverter.com/decryptedappstore/us', text: 'decrypedAppStore' },
+      { type: 'content', text: 'If you can’t find it here there are a few other websites you can search for decrypted ipas if you have a suggestion let me know and I will add it to the link. ' },
+  ],
+  [
+      { type: 'title', text: 'Dylib/Deb files ' },
+      { type: 'content', text: 'Finding them can be difficult so I provided a few I’ve found throughout the subreddit below, but if you want to look at more I found this .ipa you can sideload as it has a ton.' },
+      { type: 'link', href: 'https://www.postbox.news/downloads', text: 'PostBox IPA' },
+      { type: 'content', text: '(Recommend you go to the repos tab and add some like TheBigBoss & Julioverne)' },
+      { type: 'content', text: 'If you do not want an app to download you can also use this website to search for them.' },
+      { type: 'link', href: 'https://www.ios-repo-updates.com', text: 'iosRepoUpdates' },
+      { type: 'content', text: 'Adblock (.deb file)' },
+      { type: 'link', href: 'https://julioverne.github.io/debfiles/com.julioverne.adblock_0.2~beta1_iphoneos-arm.deb', text: 'Julioverne Adblock' },
+      { type: 'link', href: 'http://apt.thebigboss.org/repofiles/cydia/debs2.0/splashadblock_1.5.deb', text: 'Splash Adblock' },
+      { type: 'content', text: 'IAP (Free In App Purchases)' },
+      { type: 'link', href: 'https://github.com/Paisseon/SatellaJailed/blob/emt/SatellaJailed.dylib', text: 'Satella Jailed' },
+      { type: 'link', href: '', text: 'This is only for non-server sided IAP’s so mainly low anti-cheat games (Will not work for all apps and you can get banned from the game if they have anti cheat detection)' },
+
 
   ],
   [
-      { type: 'title', text: 'Step 2' },
-      { type: 'content', text: 'Download this shortcut' },
-      { type: 'link', href: 'https://www.icloud.com/shortcuts/57f03a5d4bbf4529a03e2598828b05de', text: 'Shortcut' , newTab:true},
-      { type: 'content', text: 'Open the shortcut from Shortcuts App' },
-      { type: 'content', text: 'Choose Installers > Feather' },
-      { type: 'content', text: 'Choose any certificate and try to choose another if first doesnt work' },
-      { type: 'content', text: 'Choose Allow if theres a popup asking for permissions and Install'},
-
-
+        { type: 'title', text: 'Adblock and IAP Files' },
+      { type: 'content', text: 'Adblock (.deb file)' },
+      { type: 'link', href: 'https://julioverne.github.io/debfiles/com.julioverne.adblock_0.2~beta1_iphoneos-arm.deb', text: 'Julioverne Adblock' },
+      { type: 'link', href: 'http://apt.thebigboss.org/repofiles/cydia/debs2.0/splashadblock_1.5.deb', text: 'Splash Adblock' },
+      { type: 'content', text: 'IAP (Free In App Purchases)' },
+      { type: 'link', href: 'https://github.com/Paisseon/SatellaJailed/blob/emt/SatellaJailed.dylib', text: 'Satella Jailed' },
+      { type: 'content', text: 'This is only for non-server sided IAP’s so mainly low anti-cheat games (Will not work for all apps and you can get banned from the game if they have anti cheat detection)' },
+      { type: 'content', text: 'IGG (IGameGod Hex Editor)' },
+      { type: 'link', href: 'https://iosgods.com/igg', text: 'IGG' },
+      { type: 'content', text: 'Works on most games to modify game values of anything the game keeps numbers on and works with non-server values cash/gold/gems' },
   ],
   [
-    { type: 'title', text: 'Step 3' },
-    { type: 'content', text: 'Download any cert from this telegram channel' },
-    { type: 'link', href: 'https://t.me/AppleP12', text: 'AppleP12 telegram' , newTab:true},
-    { type: 'content', text: 'Open profile and in files tab download any cert' },
-    { type: 'image', src: 'Screenshots/best-guide/p12.jpg', alt: 'p12 telegram' },
-    { type: 'image', src: 'Screenshots/best-guide/p12cert.jpg', alt: 'p12 cert' },
-],
+        { type: 'title', text: 'Injecting Deb/Dylib' },
+        { type: 'content', text: 'Import the ipa you want to modify into esign files tab and click on it to “add library” so it moves into the unsigned apps tab' },
+        { type: 'content', text: 'Next import your Deb/Dylib files to the same file tab' },
+        { type: 'content', text: 'Click on the app like normal but instead of hitting signature hit “more settings”' },
+        { type: 'content', text: 'Next find the Add Library' },
+        { type: 'content', text: ' Then add the ones you want' },
+        { type: 'content', text: 'Hit OK and you will see them added' },
+        { type: 'content', text: 'Then just Sign the app and you are done!' },
+        { type: 'image', src: 'Screenshots/dylib/1.png', alt: '' },
+        { type: 'image', src: 'Screenshots/dylib/2.png', alt: '' },
+        { type: 'image', src: 'Screenshots/dylib/3.png', alt: '' },
+  ],
+  [
+        { type: 'title', text: 'Removing Deb/Dylib' },
+        { type: 'content', text: 'Sometimes tweaked apps come with garbage they don’t need (Looking at you iosgods) you can remove junk like for example iosgods ad popups in a similar way.' },
+        { type: 'content', text: 'In the more settings tab you can click on Remove Existing Library to remove unwanted' },
+        { type: 'content', text: 'This can be helpful for tweaked apps that have a bunch of unnecessary tweaks injected to them as well most notably in tweaked YouTube, Spotify or social media apps that can cause issues' },
+        { type: 'image', src: 'Screenshots/dylib/removing.png', alt: '' },
+  ],
+
 
 ];
 

@@ -54,7 +54,6 @@ h4,
 h5,
 h6 {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-    text-align: center;
 }
 
 li {
@@ -140,7 +139,7 @@ button {
 }
 
 .glide img{
-    max-width: 370px;
+    max-width: 300px;
 }
 
 @media (min-width: 1024px) {
@@ -164,7 +163,6 @@ button {
     border: none;
     width: 10px;
     height: 10px;
-
     margin: 5px 5px;
     cursor: pointer;
     box-sizing: border-box;
