@@ -149,25 +149,27 @@ button {
     }
 }
 
-
 .glide__bullets {
     text-align: center;
 }
 
 .glide__bullet {
+    display: inline-block;
     background: #ddd;
     border: none;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: 50%; 
     margin: 0 5px;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .glide__bullet:hover,
 .glide__bullet--active {
     background: #FFCB6B;
 }
+
 
 #repos{
     overflow-y: hidden;
