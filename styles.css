@@ -162,14 +162,13 @@ button {
     background: #ddd;
     border: none;
     width: 10px;
-    min-width: 10px;
-    height: 10px;
-    min-height: 10px;
-    border-radius: 50%;
+    padding-top: 10px; /* Equal padding to make it square */
+    border-radius: 50%; /* Make it a circle */
     margin: 0 5px;
     cursor: pointer;
     box-sizing: border-box;
 }
+
 
 
 
