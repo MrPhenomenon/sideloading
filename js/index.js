@@ -97,7 +97,7 @@ function showCopiedMessage() {
   notification.style.color = 'black';
   notification.style.padding = '10px 20px';
   notification.style.borderRadius = '5px';
-  notification.style.zIndex = 1000;
+  notification.style.zIndex = 5000;
 
   document.body.appendChild(notification);
 
