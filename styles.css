@@ -54,6 +54,7 @@ h4,
 h5,
 h6 {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    text-align: center;
 }
 
 li {
