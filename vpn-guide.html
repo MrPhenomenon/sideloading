@@ -122,7 +122,15 @@
 
     </header>
 
-    <h1 class="text-center">Coming Soon</h1>
+    <section id="vpn-guide" class="container justify-content-center ">
+        <h1 class="text-center">VPN Setup</h1>
+        <div class="vpn" id="vpn"></div>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                makeCards(vpn, 'vpn');
+            });
+        </script>
+    </section>
 
 
     <footer class="py-3 mt-5 text-center text-body-secondary bg-body-tertiary">

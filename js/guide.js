@@ -142,7 +142,6 @@ const installingApps = [
 
 ];
 
-
 const feather = [
     [
         { type: 'title', text: 'Step 1' },
@@ -172,7 +171,6 @@ const feather = [
   
   ];
   
-
 const faqs = [
   {
       question: 'None of the ESign links working and not installing!',
@@ -294,6 +292,39 @@ const dylib = [
   ],
 
 
+];
+const vpn = [
+  [
+      { type: 'title', text: 'Introduction' },
+      { type: 'content', text: 'The most asked question is can you use a VPN? The answer is yes, but it takes some work to get it to work without revoking all your apps. This is because VPNs have a built in DNS they use to filterinternet traffic and it’s possible to adjust the built in VPN DNS to work with NextDNS or another DNS provide' },
+  ],
+  [
+      { type: 'title', text: 'How to?' },
+      { type: 'content', text: 'First you will need to find your DNS address for NextDNS you can find it here (yours will be different than mine)' },
+      { type: 'content', text: 'Next you will need to take the address and change your VPN from automatic to manual (This is different for every VPN!) ' },
+      { type: 'image', src: 'Screenshots/vpn/1.png', alt: '' },
+  ],
+  [
+      { type: 'title', text: 'Connecting NextDNS with VPN.' },
+      { type: 'content', text: 'Wireguard guide thanks to u/Dropped_Angel' },
+      { type: 'content', text: 'This should be somewhat universal depending on your vpn’s configurability ' },
+      { type: 'content', text: 'Setup a WireGuard profile. Configure WireGuard App.' },
+      { type: 'link', href: 'https://itunes.apple.com/us/app/wireguard/id1441195209?ls=1&mt=8', text: 'Wireguard' },
+      { type: 'content', text: 'Download and setup the .conf file for WireGuard with AirVPN configuration Generator (PAID)' },
+      { type: 'link', href: 'https://airvpn.org/generator/', text: 'AirVPN' },
+
+      { type: 'image', src: 'Screenshots/vpn/2.png', alt: '' },
+  ],
+  [
+      { type: 'title', text: 'Step 2' },
+      { type: 'content', text: 'Proceed with setting up NextDNS as WireGuard’s DNS' },
+      { type: 'content', text: 'Use your NextDNS custom dns and copy the first one on both.' },
+      { type: 'content', text: 'Copy and paste the first line of Part 1 and Part 2. Separated with a comma' },
+      { type: 'content', text: 'Repeat the steps for every thing configuration, future and current.' },
+      { type: 'content', text: 'SAVE.' },
+      { type: 'image', src: 'Screenshots/vpn/3.png', alt: '' },
+      { type: 'image', src: 'Screenshots/vpn/4.png', alt: '' },
+  ],
 ];
 
 

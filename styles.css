@@ -207,3 +207,13 @@ button {
     background-color: transparent;
     border: 2px solid #ffda6a;
   }
+
+#vpn-guide .glide img{
+max-width: 450px;
+}
+
+@media (max-width: 990px){
+    #vpn-guide .glide img{
+        max-width: 330px;
+        }
+}
