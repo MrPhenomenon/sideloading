@@ -162,12 +162,15 @@ button {
     background: #ddd;
     border: none;
     width: 10px;
-    aspect-ratio: 1 / 1; 
+    min-width: 10px;
+    height: 10px;
+    min-height: 10px;
     border-radius: 50%;
     margin: 0 5px;
     cursor: pointer;
     box-sizing: border-box;
 }
+
 
 
 .glide__bullet:hover,
