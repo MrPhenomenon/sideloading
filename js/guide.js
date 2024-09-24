@@ -7,7 +7,7 @@ const quickGuide = [
       { type: 'link', href: 'https://routinehub.co/shortcut/19640/', text: 'DNS+Esign+Cert Shortcut', newTab: true },
 
   ],
-  [
+ [
       { type: 'title', text: 'Step 2' },
       { type: 'content', text: 'Be sure DNS is enabled in settings' },
       { type: 'content', text: 'Install esign using cert' },
@@ -32,10 +32,10 @@ const makeDNS = [
       { type: 'content', text: 'Go to “Denylist”'},
       { type: 'content', text: 'Add the following links to the denylist'},
       { type: 'link', href: '#denylist', text: 'DenyList Links',newTab: false },
-      { type: 'content', text: 'Add this link in the allowList ( for feather only)'},
+      { type: 'content', text: 'Add this link in the allowList ( for feather only )'},
       { type: 'link', text: 'app.localhost.direct', href:'#'},
 
-      { type: 'image', src: 'Screenshots/best-guide/dnsBlockiLst.PNG', alt: 'Image 2' },
+      { type: 'image', src: 'Screenshots/best-guide/dnsBlockiLst.png', alt: 'Image 2' },
       { type: 'image', src: 'Screenshots/best-guide/allowlist.jpg', alt: 'allowList' },
 
 
@@ -114,7 +114,7 @@ const downloadingApps = [
       { type: 'content', text: 'You can import any downloaded .ipa files in the same file location as the zip folder.' },
       { type: 'content', text: ' It will ask if you want to import it to App Library and click yes and it will move to the unsigned tab ' },
       { type: 'link', href: '#installingApps', text: 'Installing the IPA' ,newTab: false},
-      { type: 'image', src: 'Screenshots/best-guide/installipa.png', alt: '' },
+      { type: 'image', src: 'Screenshots/best-guide/installIpa.png', alt: 'ipa' },
   ],
   [
       { type: 'title', text: 'Getting Apps from Repos' },
