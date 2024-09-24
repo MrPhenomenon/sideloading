@@ -158,19 +158,18 @@ button {
 }
 
 .glide__bullet {
-    display: inline-block;
+    -webkit-appearance: none;
+    appearance: none;
     background: #ddd;
     border: none;
     width: 10px;
-    padding-top: 10px; /* Equal padding to make it square */
-    border-radius: 50%; /* Make it a circle */
-    margin: 0 5px;
+    height: 10px;
+
+    margin: 5px 5px;
     cursor: pointer;
     box-sizing: border-box;
+    aspect-ratio: 1 / 1;
 }
-
-
-
 
 .glide__bullet:hover,
 .glide__bullet--active {
