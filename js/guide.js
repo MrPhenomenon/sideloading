@@ -35,8 +35,8 @@ const makeDNS = [
       { type: 'content', text: 'Add this link in the allowList ( for feather only )'},
       { type: 'link', text: 'app.localhost.direct', href:'#'},
 
-      { type: 'image', src: 'Screenshots/best-guide/dnsBlockiLst.png', alt: 'Image 2' },
-      { type: 'image', src: 'Screenshots/best-guide/allowlist.jpg', alt: 'allowList' },
+      { type: 'image', src: 'images/best-guide/dnsBlockiLst.png', alt: 'Image 2' },
+      { type: 'image', src: 'images/best-guide/allowlist.jpg', alt: 'allowList' },
 
 
 
@@ -46,16 +46,16 @@ const makeDNS = [
       { type: 'content', text: 'Once you have your deny list set up you need to install the DNS profile by going to the setup tab and hitting download config profile' },
       { type: 'content', text: 'Then enable the DNS and check that it is turned on in VPN & device management found in General in settings' },
       { type: 'content', text: 'If you have another DNS be sure to disable it along with turning off a VPN' },
-      { type: 'image', src: 'Screenshots/best-guide/dns-profile.jpg', alt: 'dns-profile' },
-      { type: 'image', src: 'Screenshots/best-guide/dns-settings.jpg', alt: 'dns-settings' },
+      { type: 'image', src: 'images/best-guide/dns-profile.jpg', alt: 'dns-profile' },
+      { type: 'image', src: 'images/best-guide/dns-settings.jpg', alt: 'dns-settings' },
 
   ],
   [
       { type: 'title', text: 'Step 3 (Optional: To add adBlock)' },
       { type: 'content', text: 'Go to Privacy tab > Add a blocklist' },
       { type: 'content', text: 'Add any adblocker you want' },
-      { type: 'image', src: 'Screenshots/best-guide/adblock.png', alt: '' },
-      { type: 'image', src: 'Screenshots/best-guide/adblock2.png', alt: '' },
+      { type: 'image', src: 'images/best-guide/adblock.png', alt: '' },
+      { type: 'image', src: 'images/best-guide/adblock2.png', alt: '' },
 
   ],
 ];
@@ -74,20 +74,20 @@ const installingEsign = [
         { type: 'link', href: 'http://cloudyserver.bio.link', text: 'cloudyserver' ,newTab: true},
         { type: 'link', href: 'http://jorkthepork.com', text: 'jorkthepork' ,newTab: true},
         { type: 'content', text: 'Do not use the live (or active) cert link this certificate is currently signed. Do not use that certificate. It will work but if the certificate gets revoked your apps will get revoked. This is what some other signing services use and are subject to being revoked quickly. ' },
-        { type: 'image', src: 'Screenshots/best-guide/shortcut.png', alt: 'shortcut' },
-        { type: 'image', src: 'Screenshots/best-guide/esign.png', alt: 'esign' },
+        { type: 'image', src: 'images/best-guide/shortcut.png', alt: 'shortcut' },
+        { type: 'image', src: 'images/best-guide/esign.png', alt: 'esign' },
   
     ],  
     [
       { type: 'title', text: 'Step 2' },
       { type: 'content', text: 'Trust ESign in settings to allow you to open the app (settings > general > VPN & device management' },
-      { type: 'image', src: 'Screenshots/best-guide/verifycert.png', alt: 'Cert Download' },
+      { type: 'image', src: 'images/best-guide/verifycert.png', alt: 'Cert Download' },
     ],
     [
       { type: 'title', text: 'Step 3' },
       { type: 'content', text: 'Download the certs file zip (FILE ESign Cert) from the link below ' },
       { type: 'link', href: 'https://khoindvn.io.vn/document/DNS/Esign-Certs.zip', text: 'Esign-Certs' ,newTab: true},
-      { type: 'image', src: 'Screenshots/best-guide/Dlcert.png', alt: 'Cert Download' },
+      { type: 'image', src: 'images/best-guide/Dlcert.png', alt: 'Cert Download' },
     ],
     [
       { type: 'title', text: 'Step 4' },
@@ -95,14 +95,14 @@ const installingEsign = [
       { type: 'content', text: 'In ESign go to the far left tab(files) and at the top right corner hit that and select import. Then choose the cert .zip file to import.' },
       { type: 'content', text: 'Once imported click it to unzip you can then delete the zip file' },
   
-      { type: 'image', src: 'Screenshots/best-guide/esignApp.png', alt: 'Cert Download' },
-      { type: 'image', src: 'Screenshots/best-guide/importZip.png', alt: 'Cert Download' },
+      { type: 'image', src: 'images/best-guide/esignApp.png', alt: 'Cert Download' },
+      { type: 'image', src: 'images/best-guide/importZip.png', alt: 'Cert Download' },
     ],
     [
       { type: 'title', text: 'Step 5' },
       { type: 'content', text: 'Open cert folder and pick one out to install. I use HDFC but any should work if one does not work just try another. Import by clicking on the cert and importing.' },
       { type: 'content', text: 'That’s it you’re all set up now time to get some apps!' },
-      { type: 'image', src: 'Screenshots/best-guide/importCert.png', alt: 'Cert Download' },
+      { type: 'image', src: 'images/best-guide/importCert.png', alt: 'Cert Download' },
   
     ],
 ]
@@ -114,7 +114,7 @@ const downloadingApps = [
       { type: 'content', text: 'You can import any downloaded .ipa files in the same file location as the zip folder.' },
       { type: 'content', text: ' It will ask if you want to import it to App Library and click yes and it will move to the unsigned tab ' },
       { type: 'link', href: '#installingApps', text: 'Installing the IPA' ,newTab: false},
-      { type: 'image', src: 'Screenshots/best-guide/installIpa.png', alt: 'ipa' },
+      { type: 'image', src: 'images/best-guide/installIpa.png', alt: 'ipa' },
   ],
   [
       { type: 'title', text: 'Getting Apps from Repos' },
@@ -124,8 +124,8 @@ const downloadingApps = [
       { type: 'link', href: 'esign-repo.html', text: 'Esign Repos' ,newTab: true},
       { type: 'link', href: 'https://rentry.org/ipa-sources2', text: 'Links for other IPA Sources and Games' ,newTab: true},
       { type: 'content', text: 'You can now download apps from Esign AppStore tab' },
-      { type: 'image', src: 'Screenshots/best-guide/appsources.png', alt: 'appsources' },
-      { type: 'image', src: 'Screenshots/best-guide/addsource.png', alt: 'addsource' },
+      { type: 'image', src: 'images/best-guide/appsources.png', alt: 'appsources' },
+      { type: 'image', src: 'images/best-guide/addsource.png', alt: 'addsource' },
   ],
 ];
 
@@ -134,10 +134,10 @@ const installingApps = [
       { type: 'title', text: 'Step 1' },
       { type: 'content', text: 'Go to the apps tab you will see the unsigned app you imported click on it and hit “SIGNATURE” (DO NOT JUST HIT INSTALL IT WILL NOT WORK!)' },
       { type: 'content', text: 'Hit signature again on the next tab and it will load then hit install and a pop up will come up for it to install the app and its done. No revokes and install as many as you want!' },
-      { type: 'image', src: 'Screenshots/best-guide/signApp.png', alt: 'signApp' },
-      { type: 'image', src: 'Screenshots/best-guide/signApp2.png', alt: 'signApp2' },
-      { type: 'image', src: 'Screenshots/best-guide/installApp.png', alt: 'installApp' },
-      { type: 'image', src: 'Screenshots/best-guide/installApp2.png', alt: 'installApp2' },
+      { type: 'image', src: 'images/best-guide/signApp.png', alt: 'signApp' },
+      { type: 'image', src: 'images/best-guide/signApp2.png', alt: 'signApp2' },
+      { type: 'image', src: 'images/best-guide/installApp.png', alt: 'installApp' },
+      { type: 'image', src: 'images/best-guide/installApp2.png', alt: 'installApp2' },
   ],
 
 ];
@@ -165,8 +165,8 @@ const feather = [
       { type: 'content', text: 'Download any cert from this telegram channel' },
       { type: 'link', href: 'https://t.me/AppleP12', text: 'AppleP12 telegram' , newTab:true},
       { type: 'content', text: 'Open profile and in files tab download any cert' },
-      { type: 'image', src: 'Screenshots/best-guide/p12.jpg', alt: 'p12 telegram' },
-      { type: 'image', src: 'Screenshots/best-guide/p12cert.jpg', alt: 'p12 cert' },
+      { type: 'image', src: 'images/best-guide/p12.jpg', alt: 'p12 telegram' },
+      { type: 'image', src: 'images/best-guide/p12cert.jpg', alt: 'p12 cert' },
   ],
   
   ];
@@ -279,16 +279,16 @@ const dylib = [
         { type: 'content', text: ' Then add the ones you want' },
         { type: 'content', text: 'Hit OK and you will see them added' },
         { type: 'content', text: 'Then just Sign the app and you are done!' },
-        { type: 'image', src: 'Screenshots/dylib/1.png', alt: '' },
-        { type: 'image', src: 'Screenshots/dylib/2.png', alt: '' },
-        { type: 'image', src: 'Screenshots/dylib/3.png', alt: '' },
+        { type: 'image', src: 'images/dylib/1.png', alt: '' },
+        { type: 'image', src: 'images/dylib/2.png', alt: '' },
+        { type: 'image', src: 'images/dylib/3.png', alt: '' },
   ],
   [
         { type: 'title', text: 'Removing Deb/Dylib' },
         { type: 'content', text: 'Sometimes tweaked apps come with garbage they don’t need (Looking at you iosgods) you can remove junk like for example iosgods ad popups in a similar way.' },
         { type: 'content', text: 'In the more settings tab you can click on Remove Existing Library to remove unwanted' },
         { type: 'content', text: 'This can be helpful for tweaked apps that have a bunch of unnecessary tweaks injected to them as well most notably in tweaked YouTube, Spotify or social media apps that can cause issues' },
-        { type: 'image', src: 'Screenshots/dylib/removing.png', alt: '' },
+        { type: 'image', src: 'images/dylib/removing.png', alt: '' },
   ],
 
 
@@ -302,7 +302,7 @@ const vpn = [
       { type: 'title', text: 'How to?' },
       { type: 'content', text: 'First you will need to find your DNS address for NextDNS you can find it here (yours will be different than mine)' },
       { type: 'content', text: 'Next you will need to take the address and change your VPN from automatic to manual (This is different for every VPN!) ' },
-      { type: 'image', src: 'Screenshots/vpn/1.png', alt: '' },
+      { type: 'image', src: 'images/vpn/1.png', alt: '' },
   ],
   [
       { type: 'title', text: 'Connecting NextDNS with VPN.' },
@@ -313,7 +313,7 @@ const vpn = [
       { type: 'content', text: 'Download and setup the .conf file for WireGuard with AirVPN configuration Generator (PAID)' },
       { type: 'link', href: 'https://airvpn.org/generator/', text: 'AirVPN' },
 
-      { type: 'image', src: 'Screenshots/vpn/2.png', alt: '' },
+      { type: 'image', src: 'images/vpn/2.png', alt: '' },
   ],
   [
       { type: 'title', text: 'Step 2' },
@@ -322,8 +322,8 @@ const vpn = [
       { type: 'content', text: 'Copy and paste the first line of Part 1 and Part 2. Separated with a comma' },
       { type: 'content', text: 'Repeat the steps for every thing configuration, future and current.' },
       { type: 'content', text: 'SAVE.' },
-      { type: 'image', src: 'Screenshots/vpn/3.png', alt: '' },
-      { type: 'image', src: 'Screenshots/vpn/4.png', alt: '' },
+      { type: 'image', src: 'images/vpn/3.png', alt: '' },
+      { type: 'image', src: 'images/vpn/4.png', alt: '' },
   ],
 ];
 
@@ -338,4 +338,4 @@ const vpn = [
 
 // { type: 'link', href: '', text: '' },
 
-// { type: 'image', src: 'Screenshots/best-guide/', alt: '' },
+// { type: 'image', src: 'images/best-guide/', alt: '' },
