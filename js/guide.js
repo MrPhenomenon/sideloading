@@ -327,6 +327,22 @@ const vpn = [
   ],
 ];
 
+const tips = [
+    [
+    { type: 'title', text: 'Tips to not get Blacklisted' },
+    { type: 'content', text: 'Do NOT use any free VPN with this method, if you have a paid VPN, configure it to work with your DNS' },
+    { type: 'link', href: 'vpn-guide.html', text: 'Guide for VPN Config' },
+    { type: 'content', text: 'Do NOT turn off DNS even for updating iOS, if you cannot update iOS you need to make your own DNS' },
+    { type: 'link', href: 'best-guide.html', text: 'DNS Guide' },
+    { type: 'content', text: ' If you add multiple adblockers to list in NextDNS it is very likely that you will hit the monthly quota of 300k queries' },
+    { type: 'content',  text: 'So use only one adblocker (AdGuard DNS Filter is good)' },
+    { type: 'content', text: 'You usually get warning email from NextDNS about your limit, keep an eye out for that and shift to your backup for the rest of the month' },
+    { type: 'content', text: "Your backup could be Khoindvn's DNS ( Shift back to nextDNS one your limit )" },
+    { type: 'link', href: 'https://khoindvn.io.vn/document/DNS/khoindns.mobileconfig?sign=1', text: 'Khoindvn DNS' },
+    { type: 'content', text: 'You can manually check your last 30 days usage to get an estimate in Analytics Tab' },
+    { type: 'image', src: 'images/usage.jpg', alt: 'usage' },
+    ]
+]
 
 
 
