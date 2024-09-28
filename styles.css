@@ -39,13 +39,12 @@
 
 
 .blog-header-logo {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-family:  "Montserrat", sans-serif;
+    font-style: italic;
     font-size: 2.25rem;
 }
 
-.accordion-header h1{
-    font-family: 'Courier New', Courier, monospace;
-}
+
 
 h1,
 h2,
@@ -53,11 +52,16 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-family:  "Montserrat", sans-serif;
+}
+div .accordion-body{
+    font-family: "Roboto", sans-serif;
 }
 
 li {
     margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
 }
 
 .input-group {
@@ -70,6 +74,10 @@ textarea {
     border-radius: 0.25rem;
     padding: 10px;
     resize: none;
+}
+
+#buttons h3{
+    font-size: 22px;
 }
 
 button {
@@ -118,11 +126,6 @@ button {
 
 #backToTop:hover {
     background-color: #cc9a05;
-}
-
-.faq {
-    font-weight: 100;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Home */
@@ -184,9 +187,8 @@ button {
 }
 
 .accordion-button {
-    background-color: #efefef;
-    color: white;
-    border:2px solid #cc9a05
+    border:2px solid #cc9a05;
+    font-size: 20px;
   }
   
 
@@ -203,8 +205,7 @@ button {
   }
   
   .accordion-body {
-    background-color: transparent;
-    border: 2px solid #ffda6a;
+    line-height: 28px;
   }
 
 #vpn-guide .glide img{

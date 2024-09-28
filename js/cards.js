@@ -9,7 +9,7 @@ function makeCards(guideSteps, containerId) {
         cardBody.className = 'card-body';
 
         let ul = document.createElement('ul');
-        ul.className = 'fs-5';
+        
 
         let imgDiv = null;
         let glideSlides = null;
@@ -138,7 +138,7 @@ function createFAQ(faqs, containerId) {
         accordionHeader.className = 'accordion-header ';
         
         const button = document.createElement('button');
-        button.className = 'accordion-button text-reset fs-4 fw-semibold';
+        button.className = 'accordion-button text-reset';
         button.type = 'button';
         button.setAttribute('data-bs-toggle', 'collapse');
         button.setAttribute('data-bs-target', `#panelsStayOpen-collapse${index}`);
@@ -156,7 +156,7 @@ function createFAQ(faqs, containerId) {
         collapseDiv.id = `panelsStayOpen-collapse${index}`;
 
         const accordionBody = document.createElement('div');
-        accordionBody.className = 'accordion-body fs-5';
+        accordionBody.className = 'accordion-body';
         accordionBody.textContent = faq.answer;
        
 
