@@ -63,6 +63,8 @@ const makeDNS = [
 const installingEsign = [
     [
         { type: 'title', text: 'Step 1' },
+        { type: 'content', text: "Warning: You can't use any free VPN with this method. If you want to, you'll need to create your own VPN before installing Esign to avoid blacklisting." }
+        { type: 'link', href: 'vpn-guide.html', text: 'Make your own VPN guide',newTab: true },
         { type: 'content', text: 'Download ESign from link below it has quite a few certs to choose from just get one that works (some will fail to install) just keep trying until you get one to install OR use the shortcut ( This is the easier way to install both ESign and feather and get the cert files! ) ' },
         { type: 'link', href: 'https://esigncert.github.io/khoindvn/', text: 'Download Esign', newTab: true },
         { type: 'link', href: 'https://www.icloud.com/shortcuts/57f03a5d4bbf4529a03e2598828b05de', text: 'Download Shortcut', newTab: true },
@@ -350,6 +352,8 @@ const freevpn = [
         { type: 'title', text: 'Instructions' },
         { type: 'content', text: 'This guide is for Windows, you need a Windows PC/Laptop'},
         { type: 'content', text: 'Read the instructions before watching the guide'},
+        { type: 'content', text: 'Warning: This should be done before installing Esign because your DNS will not work while linking your IP'},
+        { type: 'content', text: "You might get blacklisted if you already have a certificate installed, but it’s not guaranteed. I did it with certificates installed, and it's working fine so far." }
         { type: 'content', text: ' Once your VPN is set up, you cannot change the location, so choose your server location carefully. '},
         { type: 'content', text: 'You can have a maximum of 2 VPN connections at the same time.' },
         { type: 'content', text: 'A credit or debit card is required for the initial setup (don’t worry, you won’t be charged).' },
