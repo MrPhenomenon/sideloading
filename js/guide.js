@@ -25,7 +25,7 @@ const quickGuide = [
 const makeDNS = [
   [
       { type: 'title', text: 'Step 1' },
-      { type: 'content', text: 'Follow the steps to make your DNS. [Removed pre built DNS]'},
+      { type: 'content', text: 'Follow the steps to make your DNS. [Removed any other DNS you have (adblock etc)]'},
       { type: 'content', text: 'When you make your own DNS you have multiple services to choose from (or host your own server), I’d recommend'},
       { type: 'link', href: 'https://nextdns.io/?from=ttmh29cu', text: 'NextDNS',newTab: true },
       { type: 'content', text: 'Make an account'},
@@ -294,10 +294,7 @@ const dylib = [
 
 ];
 const vpn = [
-  [
-      { type: 'title', text: 'Introduction' },
-      { type: 'content', text: 'The most asked question is can you use a VPN? The answer is yes, but it takes some work to get it to work without revoking all your apps. This is because VPNs have a built in DNS they use to filterinternet traffic and it’s possible to adjust the built in VPN DNS to work with NextDNS or another DNS provide' },
-  ],
+
   [
       { type: 'title', text: 'How to?' },
       { type: 'content', text: 'First you will need to find your DNS address for NextDNS you can find it here (yours will be different than mine)' },
@@ -344,8 +341,50 @@ const tips = [
     ]
 ]
 
+const freevpn = [
+    [
+        { type: 'title', text: 'Introduction' },
+        { type: 'content', text: 'The most asked question is can you use a VPN? The answer is yes, but it takes some work to get it to work without revoking all your apps. This is because VPNs have a built in DNS they use to filterinternet traffic and it’s possible to adjust the built in VPN DNS to work with NextDNS or another DNS provide' },
+    ],
+    [
+        { type: 'title', text: 'Instructions' },
+        { type: 'content', text: 'This guide is for Windows, you need a Windows PC/Laptop'},
+        { type: 'content', text: 'Read the instructions before watching the guide'},
+        { type: 'content', text: ' Once your VPN is set up, you cannot change the location, so choose your server location carefully. '},
+        { type: 'content', text: 'You can have a maximum of 2 VPN connections at the same time.' },
+        { type: 'content', text: 'A credit or debit card is required for the initial setup (don’t worry, you won’t be charged).' },
+        { type: 'content', text: 'Let’s get started' },
+
+    ],
+    [
+            { type: 'title', text: 'Video Guide' },
+            { type: 'content', text: 'First, read the following instructions to learn what settings you need to change. Then, follow this tutorial (Thanks to u/Rockybroo_YT for providing the link).' },
+            { type: 'link', href: 'https://www.youtube.com/watch?v=1dIy0rZ_GKs&t=241s', text: 'Watch the Tutorial', newTab:true },
+            { type: 'content', text: "At 0:45, during sign-up, you'll need to select a 'Home Region'" },
+            { type: 'content', text: "Choose this location carefully, as it will be your VPN location, and you won’t be able to change it later." },
+            { type: 'content', text: "So avoid selecting your country if you want to access sites that are blocked there." },
+            { type: 'content', text: "At the 03:38 mark in the video, replace Cloudflare's 1.1.1.1 with your NextDNS addresses" },
+            { type: 'content', text: "To find the address, open NextDNS on your phone where the profile is installed." },
+            { type: 'content', text: "Scroll down a bit, and you’ll see the addresses under the heading 'DNS Servers'." },
+            { type: 'content', text: "Add both of these addresses in the 'Primary' and 'Secondary DNS Server' fields." },
+            { type: 'content', text: "When it’s time to install OpenVPN on your PC, instead download and install OpenVPN from the App Store." },
+            { type: 'content', text: "Add the URL and sign in." },
+            { type: 'content', text: "You should now be able to connect to the VPN." },
+            { type: 'content', text: "Connect to the VPN and open NextDNS." },
+            { type: 'content', text: "It should say, 'This device is using NextDNS with no profile'." },
+            { type: 'content', text: "Scroll down and look for 'Link IP'." },
+            { type: 'content', text: "Click the button, refresh the page and it should now say 'All good!'." },
+            { type: 'content', text: "You NEED to be connected to VPN when linking your IP and don't click the button again when you are disconnected from VPN" },
+            { type: 'content', text: "Enjoy!" },
+            { type: 'image', src: 'images/vpn/region.png', alt: 'region' },
+            { type: 'image', src: 'images/vpn/dns.png', alt: '' },
+            { type: 'image', src: 'images/vpn/err.jpg', alt: '' },
+            { type: 'image', src: 'images/vpn/ip.png', alt: '' },
+    ]
 
 
+    
+]
 
 
 // { type: 'title', text: '' },

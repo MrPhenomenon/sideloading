@@ -120,8 +120,17 @@
         </div>
     </header>
 
-    <section id="vpn-guide" class="container justify-content-center ">
-        <h1 class="text-center">VPN Setup</h1>
+    <section id="vpn-guide2" class="container justify-content-center ">
+        <h1 class="text-center">Free VPN Guide (DIY VPN)</h1>
+        <div class="freevpn" id="freevpn"></div>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                makeCards(freevpn, 'freevpn');
+            });
+        </script>
+    </section>
+    <section id="vpn-guide1" class="container justify-content-center mt-4 ">
+        <h1 class="text-center">Paid VPN Setup</h1>
         <div class="vpn" id="vpn"></div>
         <script>
             document.addEventListener('DOMContentLoaded', () => {
