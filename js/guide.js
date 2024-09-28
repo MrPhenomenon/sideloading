@@ -327,8 +327,8 @@ const vpn = [
 const tips = [
     [
     { type: 'title', text: 'Tips to not get Blacklisted' },
-    { type: 'content', text: 'Do NOT use any free VPN with this method, if you have a paid VPN, configure it to work with your DNS' },
-    { type: 'link', href: 'vpn-guide.html', text: 'Guide for VPN Config' },
+    { type: 'content', text: 'Do NOT use any free VPN with this method, if you have a paid VPN, configure it to work with your DNS. You need to make your own VPN if you want to use a free vpn (see the guide below)' },
+    { type: 'link', href: 'vpn-guide.html', text: 'VPN Guide' },
     { type: 'content', text: 'Do NOT turn off DNS even for updating iOS, if you cannot update iOS you need to make your own DNS' },
     { type: 'link', href: 'best-guide.html', text: 'DNS Guide' },
     { type: 'content', text: ' If you add multiple adblockers to list in NextDNS it is very likely that you will hit the monthly quota of 300k queries' },
