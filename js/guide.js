@@ -353,7 +353,7 @@ const freevpn = [
         { type: 'content', text: 'This guide is for Windows, you need a Windows PC/Laptop'},
         { type: 'content', text: 'Read the instructions before watching the guide'},
         { type: 'content', text: 'Warning: This should be done before installing Esign because your DNS will not work while linking your IP'},
-        { type: 'content', text: "You might get blacklisted if you already have a certificate installed, but it’s not guaranteed. I did it with certificates installed, and it's working fine so far." }
+        { type: 'content', text: "You might get blacklisted if you already have a certificate installed, but it’s not guaranteed. I did it with certificates installed, and it's working fine so far." },
         { type: 'content', text: ' Once your VPN is set up, you cannot change the location, so choose your server location carefully. '},
         { type: 'content', text: 'You can have a maximum of 2 VPN connections at the same time.' },
         { type: 'content', text: 'A credit or debit card is required for the initial setup (don’t worry, you won’t be charged).' },
