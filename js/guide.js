@@ -63,7 +63,7 @@ const makeDNS = [
 const installingEsign = [
     [
         { type: 'title', text: 'Step 1' },
-        { type: 'content', text: "Warning: You can't use any free VPN with this method. If you want to, you'll need to create your own VPN before installing Esign to avoid blacklisting." }
+        { type: 'content', text: "Warning: You can't use any free VPN with this method. If you want to, you'll need to create your own VPN before installing Esign to avoid blacklisting." },
         { type: 'link', href: 'vpn-guide.html', text: 'Make your own VPN guide',newTab: true },
         { type: 'content', text: 'Download ESign from link below it has quite a few certs to choose from just get one that works (some will fail to install) just keep trying until you get one to install OR use the shortcut ( This is the easier way to install both ESign and feather and get the cert files! ) ' },
         { type: 'link', href: 'https://esigncert.github.io/khoindvn/', text: 'Download Esign', newTab: true },
