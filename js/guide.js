@@ -30,8 +30,11 @@ const quickGuide = [
       { type: 'content', text: 'Go to “Denylist”' },
       { type: 'content', text: 'Add the following links to the denylist:' },
       { type: 'link', href: '#denylist', text: 'DenyList Links', newTab: false },
-      { type: 'content', text: 'Add this link to the allowlist (for Feather only):' },
-      { type: 'link', text: 'app.localhost.direct', href: '#' },
+      { type: 'content', text: 'Add this link to the allowlist (Only if you want to use Feather)' },
+      { type: 'link', text: 'app.localhost.direct ', href: '#' },
+      { type: 'content', text: "Add this link to the allowlist (If you're not able to use ChatGPT)" },
+        { type: 'link', text: 'register.appattest.apple.com', href: '#' },
+      
   
       { type: 'image', src: 'images/best-guide/dnsBlockiLst.png', alt: 'Denylist Image' },
       { type: 'image', src: 'images/best-guide/allowlist.jpg', alt: 'Allowlist Image' },
