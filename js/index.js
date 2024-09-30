@@ -107,9 +107,9 @@ function showCopiedMessage() {
   }, 1000);
 }
 
-function copyToClipboard() {
-  // Get the code text
-  var codeText = document.getElementById("repos").textContent;
+function copyToClipboard(id) {
+  // Get the code text based on the passed ID
+  var codeText = document.getElementById(id).value; // Change to .value for textarea
 
   var tempTextArea = document.createElement("textarea");
   tempTextArea.value = codeText;
@@ -120,6 +120,6 @@ function copyToClipboard() {
 
   document.body.removeChild(tempTextArea);
 
-  showCopiedMessage();
-
+  showCopiedMessage(); // Ensure you have this function defined
 }
+

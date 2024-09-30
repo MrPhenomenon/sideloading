@@ -9,9 +9,9 @@
     <title>Sideloading</title>
 
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-    
+
     <!-- StyleSheets -->
-    
+
     <link rel="stylesheet" href="normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -21,112 +21,116 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
 
-<header>
-    <a href="#title" id="backToTop"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-        viewBox="0 -960 960 960">
-        <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487z" />
-    </svg></a>
+    <header>
+        <a href="#title" id="backToTop"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 -960 960 960">
+                <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487z" />
+            </svg></a>
 
-<!-- Dark Mode -->
+        <!-- Dark Mode -->
 
-<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-    <symbol id="check2" viewBox="0 0 16 16">
-        <path
-            d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
-    </symbol>
-    <symbol id="circle-half" viewBox="0 0 16 16">
-        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
-    </symbol>
-    <symbol id="moon-stars-fill" viewBox="0 0 16 16">
-        <path
-            d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
-        <path
-            d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
-    </symbol>
-    <symbol id="sun-fill" viewBox="0 0 16 16">
-        <path
-            d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
-    </symbol>
-</svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+            <symbol id="check2" viewBox="0 0 16 16">
+                <path
+                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+            </symbol>
+            <symbol id="circle-half" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+            </symbol>
+            <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+                <path
+                    d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+                <path
+                    d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+            </symbol>
+            <symbol id="sun-fill" viewBox="0 0 16 16">
+                <path
+                    d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+            </symbol>
+        </svg>
 
-    <div class="container">
-        <header class="border-bottom lh-1 py-3">
-            <div class="row flex-nowrap ">
+        <div class="container">
+            <header class="border-bottom lh-1 py-3">
+                <div class="row flex-nowrap ">
 
-                <div class="col-8 align-items-center d-flex align-content-center">
-                    <img src="images/favicon.png" height="70px" alt="">
-                    <a id="title" class="blog-header-logo text-warning-emphasis text-decoration-none ps-3" href="index.html">Sideloading</a>
-                </div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <div class="col-8 align-items-center d-flex align-content-center">
+                        <img src="images/favicon.png" height="70px" alt="">
+                        <a id="title" class="blog-header-logo text-warning-emphasis text-decoration-none ps-3"
+                            href="index.html">Sideloading</a>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end align-items-center">
 
-                    <div class="dropdown bd-mode-toggle">
-                        <button
-                            class="btn btn-bd-primary text-body-emphasis py-2 dropdown-toggle d-flex align-items-center"
-                            id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown"
-                            aria-label="Toggle theme (auto)">
-                            <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
-                                <use href="#circle-half"></use>
-                            </svg>
-                            <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-                            <li>
-                                <button type="button" class="dropdown-item d-flex align-items-center"
-                                    data-bs-theme-value="light" aria-pressed="false">
-                                    <svg class="bi me-2 opacity-50" width="1em" height="1em">
-                                        <use href="#sun-fill"></use>
-                                    </svg>
-                                    Light
-                                    <svg class="bi ms-auto d-none" width="1em" height="1em">
-                                        <use href="#check2"></use>
-                                    </svg>
-                                </button>
-                            </li>
-                            <li>
-                                <button type="button" class="dropdown-item d-flex align-items-center"
-                                    data-bs-theme-value="dark" aria-pressed="false">
-                                    <svg class="bi me-2 opacity-50" width="1em" height="1em">
-                                        <use href="#moon-stars-fill"></use>
-                                    </svg>
-                                    Dark
-                                    <svg class="bi ms-auto d-none" width="1em" height="1em">
-                                        <use href="#check2"></use>
-                                    </svg>
-                                </button>
-                            </li>
-                            <li>
-                                <button type="button" class="dropdown-item d-flex align-items-center active"
-                                    data-bs-theme-value="auto" aria-pressed="true">
-                                    <svg class="bi me-2 opacity-50" width="1em" height="1em">
-                                        <use href="#circle-half"></use>
-                                    </svg>
-                                    Auto
-                                    <svg class="bi ms-auto d-none" width="1em" height="1em">
-                                        <use href="#check2"></use>
-                                    </svg>
-                                </button>
-                            </li>
-                        </ul>
+                        <div class="dropdown bd-mode-toggle">
+                            <button
+                                class="btn btn-bd-primary text-body-emphasis py-2 dropdown-toggle d-flex align-items-center"
+                                id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown"
+                                aria-label="Toggle theme (auto)">
+                                <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
+                                    <use href="#circle-half"></use>
+                                </svg>
+                                <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center"
+                                        data-bs-theme-value="light" aria-pressed="false">
+                                        <svg class="bi me-2 opacity-50" width="1em" height="1em">
+                                            <use href="#sun-fill"></use>
+                                        </svg>
+                                        Light
+                                        <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                            <use href="#check2"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center"
+                                        data-bs-theme-value="dark" aria-pressed="false">
+                                        <svg class="bi me-2 opacity-50" width="1em" height="1em">
+                                            <use href="#moon-stars-fill"></use>
+                                        </svg>
+                                        Dark
+                                        <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                            <use href="#check2"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center active"
+                                        data-bs-theme-value="auto" aria-pressed="true">
+                                        <svg class="bi me-2 opacity-50" width="1em" height="1em">
+                                            <use href="#circle-half"></use>
+                                        </svg>
+                                        Auto
+                                        <svg class="bi ms-auto d-none" width="1em" height="1em">
+                                            <use href="#check2"></use>
+                                        </svg>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </header>
+            </header>
 
 
 
-        <hr class="mt-0">
+            <hr class="mt-0">
 
-    </div>
-</header>
-    
+        </div>
+    </header>
+
     <section id="banner" class="container">
-        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary d-flex align-items-center justify-content-center align-items-center">
+        <div
+            class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary d-flex align-items-center justify-content-center align-items-center">
             <div class="col-lg-12 px-0 text-center align-items-center ">
                 <h1 class="display-4 fw-bold text-warning-emphasis">Free Sideloading</h1>
                 <p class="lead my-3 fw-semibold ">Any iOS! No Computer! No App Limit! No Revokes! No 7 day Resigning!
@@ -152,43 +156,43 @@
             </div>
             <div class="col-lg-3 col-md-6 py-3 col-6">
                 <a class="text-black text-decoration-none text-wrap" href="quick-guide.html">
-                <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
-                    <div class="card-title">
-                        
-                            <h3 class=" text-wrap">Quick Guide</h3>
-                       
-                    </div>
-                </button>
-             </a>
+                    <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
+                        <div class="card-title">
+
+                            <h3>Quick Guide</h3>
+
+                        </div>
+                    </button>
+                </a>
             </div>
             <div class="col-lg-3 col-md-3 py-3 col-6">
                 <a class="text-black text-decoration-none" href="feather-guide.html">
-                <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
-                    <div class="card-title">
-                        
+                    <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
+                        <div class="card-title">
+
                             <h3>Feather</h3>
-                       
-                    </div>
-                </button>
-             </a>
+
+                        </div>
+                    </button>
+                </a>
             </div>
             <div class="col-lg-3 col-md-4 py-3 col-6">
                 <a class="text-black text-decoration-none" href="esign-repo.html">
-                <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
-                    <div class="card-title">
-                        
+                    <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
+                        <div class="card-title">
+
                             <h3>Esign Repos</h3>
                         </div>
                     </button>
                 </a>
-            </div> 
+            </div>
             <div class="col-lg-3 col-md-6 py-3 ">
                 <a class="text-black text-decoration-none" href="tips.html">
                     <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
-                    <div class="card-title">
-                        
+                        <div class="card-title">
+
                             <h3>Avoid Blacklisting</h3>
-                       
+
                         </div>
                     </button>
                 </a>
@@ -202,92 +206,67 @@
                     </button>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-4 py-3 col-6 "> 
+            <div class="col-lg-3 col-md-4 py-3 col-6 ">
                 <a class="text-black text-decoration-none" href="vpn-guide.html">
-                <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
-                    <div class="card-title">
+                    <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
+                        <div class="card-title">
                             <h3>VPN Setup</h3>
-                    </div>
-                </button>
-            </a>
+                        </div>
+                    </button>
+                </a>
             </div>
             <div class="col-lg-3 col-md-4 py-3 col-6">
                 <a class="text-black text-decoration-none" href="faqs.html">
-                <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
-                    <div class="card-title">
+                    <button class="card primary-back d-flex align-items-center justify-content-center text-black btn">
+                        <div class="card-title">
                             <h3>FAQs</h3>
                         </div>
                     </button>
                 </a>
             </div>
 
-          
+
         </div>
     </section>
 
     <section id="Introduction" class="container">
-        <div class="accordion mt-4" id="accordionPanelsStayOpenExample">
-            <div class="accordion-item">
-                <h1 class="accordion-header bw-bold">
-                    <button style="background-color: transparent;" class="accordion-button text-info " type="button"
-                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseOne">
-                        Introduction
-                    </button>
-                </h1>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse show">
-                    <div class="accordion-body">
-                        I have been jailbreaking/sideloading on my iPhone for many years and I wanted to give back to
-                        the community with this new method of free sideloading.
-                        <br class="mb-3"> I used to use AltStore until I found this new method and here is a quick guide
-                        (working for 6+months so far).
-                        <br class="mb-3"> This is for experienced people and not a deep dive. I found all links online
-                        and do not know who made them or affiliated with anyone just wanting to help out the community.
-                        <br class="mb-3">This method uses already revoked certificates to install apps hence why they do
-                        not get revoked.
-                        <br class="mb-3">This works on iPad and iPhone and has been tested and approved by people on the
-                        <a href="#">r/sideloaded</a>, <a href="#">r/jailbreak</a> & <a href="#">r/piracy</a>
-                        communities.
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div class="accordion mt-4" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
                 <h1 class="accordion-header bw-bold">
-                    <button style="background-color: transparent;" class="accordion-button text-danger"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
-                        aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        Disclaimer
+                    <button style="background-color: transparent;" class="accordion-button text-danger" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        How does it Work?
                     </button>
                 </h1>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
                     <div class="accordion-body">
-                        This method uses a DNS to block Apple's detection check if a cert is revoked if this is
-                        disabled.
-                        <br class="mb-3"> If you have used scarlet in the past there is a high likelihood that you have
-                        become blacklisted from the certs as they use the same ones meaning you will get this error even
-                        with the DNS anti revoke installed. <strike>No fix for that until new certs become
-                            available</strike> .(The only way to use this method if blacklisted is to backup then
-                        restore/reset the device this will unblacklist you.) <br class="mb-3">This method uses already
-                        revoked certificates to install apps hence why they do not get revoked.
-                        <br class="mb-3">There is a bug with ESign while manually importing files.
-                        This will cause all apps to STOP WORKING (not loading when opening apps) including non
-                        sideloaded apps, but there is an easy fix.
-                        Hard reset your phone (press volume up then down then hold the power button) until the phone
-                        restarts.
-                        <br class="mb-3">Using the DNS blocks Apple specific services from working notably the ability
-                        to use the translation app and update your device. (Note:this only happens when using khomod
-                        dns)
+                        This method uses already revoked certificates to install apps and employs a DNS to block Apple's
+                        detection of revoked certificates.
+
+                        <br class="mb-2">
+
+                        If you have used Scarlet in the past, there is a high chance that you have been blacklisted from
+                        these certificates, as they use the same ones. This means you will encounter errors even with
+                        the bypass-revoke DNS installed. The only way to use this method if blacklisted is to back up
+                        your device, then restore or reset it.
+
+                        <br class="mb-2">
+
+                        Using the DNS blocks certain Apple services from functioning, most notably the ability to use
+                        the Translation app and update your device. (Note: This only happens when using the Khomod DNS.)
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
     <footer class="py-3 mt-5  text-center text-body-secondary bg-body-tertiary ">
-        <p>All Credits to <a class="text-decoration-none primary" href="https://www.reddit.com/user/PuReEnVyUs/">PuReEnVyUs</a> for this guide</p>
-        <p>Designed by <a class="text-decoration-none primary" href="https://www.reddit.com/user/Mr_Phenomen0n/">Mr_Phenomen0n</a></p>
+        <p>Credit to <a class="text-decoration-none primary"
+                href="https://www.reddit.com/user/PuReEnVyUs/">PuReEnVyUs</a> for this guide</p>
+        <p>Designed by <a class="text-decoration-none primary"
+                href="https://www.reddit.com/user/Mr_Phenomen0n/">Mr_Phenomen0n</a></p>
     </footer>
 
     <script src="js/index.js"></script>
