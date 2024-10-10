@@ -116,11 +116,15 @@ const quickGuide = [
     [
       { type: 'title', text: 'Installing Apps from Repos' },
       { type: 'content', text: 'Using repositories (repos) is my preferred method to install apps, as you can download and install them directly within Esign.' },
-      { type: 'content', text: 'To add a repo, go to the "App Store" tab > "App Source" (top left) > "+" (top right). You can then paste your repos.' },
+      { type: 'content', text: 'Use this shortcut to add repos in any signing app' },
+      { type: 'link', href: 'https://www.icloud.com/shortcuts/2d41c5a7a4a04be6922728e327b39fcf', text: 'Repos Shortcut', newTab: true },
+      { type: 'content', text: 'Or to manually add a repo, go to the "App Store" tab > "App Source" (top left) > "+" (top right). You can then paste your repos.' },
       { type: 'content', text: 'Here are all the repos I currently use. Just copy this text, hit the plus sign, and it will paste them all.' },
       { type: 'link', href: 'esign-repo.html', text: 'Esign Repos', newTab: true },
       { type: 'link', href: 'https://rentry.org/ipa-sources2', text: 'Links for other IPA Sources and Games', newTab: true },
       { type: 'content', text: 'You can now download apps from the Esign App Store tab.' },
+
+      { type: 'image', src: 'images/shortcut.jpg', alt: 'Shortcut' },
       { type: 'image', src: 'images/best-guide/appsources.png', alt: 'App Sources' },
       { type: 'image', src: 'images/best-guide/addsource.png', alt: 'Add Source' },
     ],
@@ -371,6 +375,16 @@ const quickGuide = [
       { type: 'image', src: 'images/vpn/dns.png', alt: '' },
       { type: 'image', src: 'images/vpn/err.jpg', alt: '' },
       { type: 'image', src: 'images/vpn/ip.png', alt: '' },
+    ]
+  ];
+
+
+  const repo = [
+    [
+      { type: 'title', text: 'All Repos Shortcut' },
+      { type: 'content', text: 'Use this Shortcut to directly add repos in any signing app' },
+      { type: 'link', href: 'https://www.icloud.com/shortcuts/2d41c5a7a4a04be6922728e327b39fcf', text: 'Shortcut', newTab: true },
+      { type: 'image', src: 'images/shortcut.jpg', alt: 'Shortcut'},
     ]
   ];
   
