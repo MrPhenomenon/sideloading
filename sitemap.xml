@@ -1,62 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://sideloading.vercel.app/</loc>
-  <lastmod>2024-10-10T07:39:37+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://sideloading.vercel.app/index.html</loc>
-  <lastmod>2024-10-10T05:27:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sideloading.vercel.app/best-guide.html</loc>
-  <lastmod>2024-10-10T05:27:20+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sideloading.vercel.app/quick-guide.html</loc>
-  <lastmod>2024-10-10T10:00:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sideloading.vercel.app/feather-guide.html</loc>
-  <lastmod>2024-10-10T13:17:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sideloading.vercel.app/esign-repo.html</loc>
-  <lastmod>2024-10-10T11:56:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sideloading.vercel.app/tips.html</loc>
-  <lastmod>2024-10-10T12:11:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sideloading.vercel.app/dylib.html</loc>
-  <lastmod>2024-10-10T14:49:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sideloading.vercel.app/vpn-guide.html</loc>
-  <lastmod>2024-10-10T11:23:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sideloading.vercel.app/faqs.html</loc>
-  <lastmod>2024-10-10T12:58:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+    
+    <url>
+        <loc>https://sideloading.vercel.app/index.html</loc>
+        <lastmod>2024-10-10T05:27:16+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://sideloading.vercel.app/best-guide.html</loc>
+        <lastmod>2024-10-10T05:27:20+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://sideloading.vercel.app/quick-guide.html</loc>
+        <lastmod>2024-10-10T10:00:17+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://sideloading.vercel.app/feather-guide.html</loc>
+        <lastmod>2024-10-10T13:17:44+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://sideloading.vercel.app/esign-repo.html</loc>
+        <lastmod>2024-10-10T11:56:55+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://sideloading.vercel.app/tips.html</loc>
+        <lastmod>2024-10-10T12:11:07+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://sideloading.vercel.app/dylib.html</loc>
+        <lastmod>2024-10-10T14:49:54+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://sideloading.vercel.app/vpn-guide.html</loc>
+        <lastmod>2024-10-10T11:23:10+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://sideloading.vercel.app/faqs.html</loc>
+        <lastmod>2024-10-10T12:58:27+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
 </urlset>
