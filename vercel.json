@@ -1,13 +1,40 @@
 {
-  "rewrites": [
-    { "source": "/guide", "destination": "/best-guide.html" },
-    { "source": "/dylib", "destination": "/dylib.html" },
-    { "source": "/esign-repo", "destination": "/esign-repo.html" }
-    { "source": "/faqs", "destination": "/faqs.html" }
-    { "source": "/feather", "destination": "/feather-guide.html" }
-    { "source": "/", "destination": "/index.html" }
-    { "source": "/quick-guide", "destination": "/quick-guide.html" }
-    { "source": "/tips", "destination": "/tips.html" }
-    { "source": "/vpn", "destination": "/vpn-guide.html" }
-  ]
+    "rewrites": [
+        {
+            "source": "/guide",
+            "destination": "/best-guide.html"
+        },
+        {
+            "source": "/dylib",
+            "destination": "/dylib.html"
+        },
+        {
+            "source": "/esign-repo",
+            "destination": "/esign-repo.html"
+        },
+        {
+            "source": "/faqs",
+            "destination": "/faqs.html"
+        },
+        {
+            "source": "/feather",
+            "destination": "/feather-guide.html"
+        },
+        {
+            "source": "/",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/quick-guide",
+            "destination": "/quick-guide.html"
+        },
+        {
+            "source": "/tips",
+            "destination": "/tips.html"
+        },
+        {
+            "source": "/vpn",
+            "destination": "/vpn-guide.html"
+        }
+    ]
 }
