@@ -2,39 +2,39 @@
     "rewrites": [
         {
             "source": "/guide",
-            "destination": "/best-guide.html"
+            "destination": "/guide"
         },
         {
             "source": "/dylib",
-            "destination": "/dylib.html"
+            "destination": "/dylib"
         },
         {
             "source": "/esign-repo",
-            "destination": "/esign-repo.html"
+            "destination": "/repo"
         },
         {
             "source": "/faqs",
-            "destination": "/faqs.html"
+            "destination": "/faqs"
         },
         {
             "source": "/feather",
-            "destination": "/feather-guide.html"
+            "destination": "/feather"
         },
         {
             "source": "/",
-            "destination": "/index.html"
+            "destination": "//"
         },
         {
             "source": "/quick-guide",
-            "destination": "/quick-guide.html"
+            "destination": "/quick-guide"
         },
         {
             "source": "/tips",
-            "destination": "/tips.html"
+            "destination": "/tips"
         },
         {
             "source": "/vpn",
-            "destination": "/vpn-guide.html"
+            "destination": "/vpn"
         }
     ]
 }

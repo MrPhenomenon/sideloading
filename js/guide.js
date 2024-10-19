@@ -61,7 +61,7 @@ const quickGuide = [
     [
       { type: 'title', text: 'Step 1' },
       { type: 'content', text: "Warning: You can't use any free VPN with this method. If you want to, you'll need to create your own VPN before installing Esign to avoid blacklisting." },
-      { type: 'link', href: 'vpn-guide.html', text: 'Make your own VPN guide', newTab: true },
+      { type: 'link', href: 'vpn', text: 'Make your own VPN guide', newTab: true },
       { type: 'content', text: 'Download Esign from the link below. It has several certificates to choose from, just find one that works (some may fail to install). Keep trying until you get one to install, OR use the shortcut (This is the easier way to install both Esign and Feather and get the cert files!).' },
       { type: 'link', href: 'https://esigncert.github.io/khoindvn/', text: 'Download Esign', newTab: true },
       { type: 'link', href: 'https://www.icloud.com/shortcuts/57f03a5d4bbf4529a03e2598828b05de', text: 'Download Shortcut', newTab: true },
@@ -120,7 +120,7 @@ const quickGuide = [
       { type: 'link', href: 'https://www.icloud.com/shortcuts/2d41c5a7a4a04be6922728e327b39fcf', text: 'Repos Shortcut', newTab: true },
       { type: 'content', text: 'Or to manually add a repo, go to the "App Store" tab > "App Source" (top left) > "+" (top right). You can then paste your repos.' },
       { type: 'content', text: 'Here are all the repos I currently use. Just copy this text, hit the plus sign, and it will paste them all.' },
-      { type: 'link', href: 'esign-repo.html', text: 'Esign Repos', newTab: true },
+      { type: 'link', href: 'repo', text: 'Esign Repos', newTab: true },
       { type: 'link', href: 'https://rentry.org/ipa-sources2', text: 'Links for other IPA Sources and Games', newTab: true },
       { type: 'content', text: 'You can now download apps from the Esign App Store tab.' },
 
@@ -148,7 +148,7 @@ const quickGuide = [
     [
       { type: 'title', text: 'Step 1' },
       { type: 'content', text: 'Set up NextDNS following the detailed guide (only Steps 1 & 2).' },
-      { type: 'link', href: 'best-guide.html', text: 'NextDNS Setup', newTab: true },
+      { type: 'link', href: 'guide', text: 'NextDNS Setup', newTab: true },
     ],
     [
       { type: 'title', text: 'Step 2' },
@@ -323,9 +323,9 @@ const quickGuide = [
     [
       { type: 'title', text: 'Tips to Avoid Getting Blacklisted' },
       { type: 'content', text: 'Do NOT use any free VPN with this method. If you have a paid VPN, configure it to work with your DNS. You need to create your own VPN if you want to use a free VPN (see the guide below).' },
-      { type: 'link', href: 'vpn-guide.html', text: 'VPN Guide' },
+      { type: 'link', href: 'vpn', text: 'VPN Guide' },
       { type: 'content', text: "Do NOT turn off DNS, even for updating iOS. If you're unable to update iOS, you need to set up your own DNS." },
-      { type: 'link', href: 'best-guide.html', text: 'DNS Guide' },
+      { type: 'link', href: 'guide', text: 'DNS Guide' },
       { type: 'content', text: 'If you add multiple ad blockers to the list in NextDNS, you will likely hit the monthly quota of 300k queries.' },
       { type: 'content', text: 'So use only one ad blocker (AdGuard DNS Filter is recommended).' },
       { type: 'content', text: 'You will usually receive a warning email from NextDNS about your limit; keep an eye out for that and switch to your backup for the rest of the month.' },
