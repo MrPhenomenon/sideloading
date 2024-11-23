@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/guide",
-            "destination": "/guide"
+            "destination": "/best-guide.html"
         },
         {
             "source": "/dylib",
