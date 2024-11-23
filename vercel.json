@@ -2,39 +2,39 @@
     "rewrites": [
         {
             "source": "/guide",
-            "destination": "/guide", "permanent": true
+            "destination": "/guide"
         },
         {
             "source": "/dylib",
-            "destination": "/dylib", "permanent": true
+            "destination": "/dylib"
         },
         {
             "source": "/esign-repo",
-            "destination": "/repo", "permanent": true
+            "destination": "/repo"
         },
         {
             "source": "/faqs",
-            "destination": "/faqs", "permanent": true
+            "destination": "/faqs"
         },
         {
             "source": "/feather",
-            "destination": "/feather", "permanent": true
+            "destination": "/feather"
         },
         {
             "source": "/",
-            "destination": "/index.html", "permanent": true
+            "destination": "/index.html"
         },
         {
             "source": "/quick-guide",
-            "destination": "/quick-guide", "permanent": true
+            "destination": "/quick-guide"
         },
         {
             "source": "/tips",
-            "destination": "/tips", "permanent": true
+            "destination": "/tips"
         },
         {
             "source": "/vpn",
-            "destination": "/vpn", "permanent": true
+            "destination": "/vpn"
         }
     ]
 }
