@@ -6,19 +6,19 @@
         },
         {
             "source": "/dylib",
-            "destination": "/dylib"
+            "destination": "/dylib.html"
         },
         {
-            "source": "/esign-repo",
-            "destination": "/repo"
+            "source": "/repo",
+            "destination": "/esign-repo.html"
         },
         {
             "source": "/faqs",
-            "destination": "/faqs"
+            "destination": "/faqs.html"
         },
         {
             "source": "/feather",
-            "destination": "/feather"
+            "destination": "/feather-guide.html"
         },
         {
             "source": "/",
@@ -26,15 +26,15 @@
         },
         {
             "source": "/quick-guide",
-            "destination": "/quick-guide"
+            "destination": "/quick-guide.html"
         },
         {
             "source": "/tips",
-            "destination": "/tips"
+            "destination": "/tips.html"
         },
         {
             "source": "/vpn",
-            "destination": "/vpn"
+            "destination": "/vpn-guide.html"
         }
     ]
 }
